@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigstion area</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color: #f3f4f6;
+        }
+        nav {
+            display: block;
+            background-color: white;
+            height: 115px;
+            box-shadow: 1px 1px 10px grey;
+        }
+
+                
+        nav .menu {
+            display: inline-block;
+            float: left;
+            margin: 20px 20px;
+            font-size: 20px;
+        }
+
+        nav .menu img {
+            width: 50px;
+        }
+        nav .menu div{
+            display: inline-block;
+            margin-left: 5px;
+            margin-right: 5px;
+
+            font-weight: bolder;
+        }
+
+        nav .menu ul {
+            display: inline-block;
+            text-decoration: none;
+            list-style: none;
+    
+        }
+
+        nav .menu ul li {
+            display: inline-block;
+            margin: 20px 20px;
+            color: #838994;
+        }
+        nav .menu ul li:hover,
+        nav .menu ul li:active {
+            color: black;
+            border-bottom: 2px solid #6467f1;
+            padding-bottom: 20px;
+        }
+
+        nav .button{
+            display: inline-block;
+            float: right;
+            margin: 20px 20px;
+        }
+
+        nav .button ul {
+            display: inline-block;
+            text-decoration: none;
+            list-style: none;
+            
+        }
+
+        .button ul li {
+            display: inline-block;
+            margin: 20px 10px;
+        }
+
+        .button ul li input {
+            border: none;
+            background-image: url(search.png);
+            background-position: 5px center;
+            background-repeat: no-repeat;
+            background-size: 30px;
+            
+            width: 325px;
+            font-size: 18px;
+            padding: 8px 40px;
+            color: #7b818e;
+            border: 1px solid #838994;
+            border-radius: 5px;
+        }
+
+        .button ul li img {
+            width: 35px;
+        }
+        menu img{
+            position:relative;
+            top: 10;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <img src="freshlead.jpg" alt="">
+            <div>workflow</div>
+
+            <ul>
+                <li>Dashboard</li>
+                <li>Team</li>
+                <li>Projects</li>
+                <li>Calender</li>
+            </ul>
+        </div>
+        <div class="button">
+            <ul>
+                <li><input type="text" placeholder="Search">
+                <li><img src="bell.png" alt=""></li>
+                <li><img src="photo.png" alt=""></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
