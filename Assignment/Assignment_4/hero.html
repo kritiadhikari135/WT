@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making of html</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav {
+            padding: 25px 20px;
+        }
+
+        nav h2 {
+            display: inline-block;
+            color: #1f2937;
+            font-size: 30px;
+            font-weight: 700;
+
+        }
+
+        nav ul {
+            text-decoration: none;
+            list-style: none;
+            display: inline-block;
+            text-align: center;
+            margin: 0px 0px 0px 240px;
+            font-size: 20px;
+            color: #3c4655;
+
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0px 25px;
+
+        }
+
+        nav li:hover {
+            cursor: pointer;
+        }
+
+        nav button {
+            display: inline-block;
+            float: right;
+            padding: 8px 20px;
+            background-color: white;
+            border: 1px solid #e9ebee;
+            text-decoration: none;
+            font-size: 20px;
+
+        }
+
+        .a {
+            display: inline-block;
+            width: 600px;
+            height: 500px;
+            margin: 75px 30px;
+
+        }
+
+        .a h1 {
+            margin-top: 15px;
+            font-size: 64px;
+            font-weight: 780px;
+            color: #1f2937;
+
+        }
+
+        .a ul {
+            text-decoration: none;
+            list-style: none;
+            display: inline-block;
+            font-size: 15px;
+
+        }
+
+        .a li {
+            margin: 28px 0px;
+
+        }
+
+        .a li::before {
+            margin-right: 20px;
+            content: '\2713';
+            padding: 3px;
+            border: 2px solid #4789f7;
+            color: #4789f7;
+            border-radius: 50%;
+            font-size: 10px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 0px;
+
+        }
+
+        /* .a li after{
+            content: \2713;
+            display: block;
+            width: 3em;
+            height: 6em;
+            border: solid white;
+            border-width: 0 .145em 0.145em 0;
+            position: absolute;
+            left:0.35em;
+            top:20%;
+            transform: rotate(45deg);
+        } */
+        .a form {
+            display: block;
+            position: absolute;
+            width: 516px;
+            padding: 10px;
+            border: 2px solid #e5e7eb;
+            margin-top: 15px;
+            padding: 5px 5px;
+            border-radius: 5px;
+        }
+
+        form input {
+            margin: 5px 10px;
+            font-size: 15px;
+            text-decoration: none;
+            border: none;
+        }
+
+        form button {
+            font-size: 15px;
+            padding: 6px 12px;
+            position: absolute;
+            right:5px;
+            /* margin-left: 65px; */
+            border: none;
+            border-radius: 5px;
+            background-color: #3b82f6;
+            color: white;
+            
+
+        }
+
+        form button:hover {
+            cursor: pointer;
+        }
+
+        img {
+            float: right;
+            display: inline-block;
+            width: 540px;
+            height: 400px;
+            margin-top: 80px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h2>Brand</h2>
+        <ul>
+            <li>Home</li>
+            <li>Components</li>
+            <li>Pricing</li>
+            <li>Contact</li>
+            <li>FAQ</li>
+        </ul>
+        <button>Contact us</button>
+    </nav>
+    <div class="a">
+        <h1>Easiest way to create your website</h1>
+        <ul>
+            <li class="tickmark">Clean and simple</li>
+            <li class="tickmark">Just copy paste coding</li>
+            <li class="tickmark">Easy to use</li>
+        </ul>
+        <form action="">
+            <input type="text" name="Enter your address" placeholder="Enter your email address"><button>Join us</button>
+        </form>
+    </div>
+    <img src="hero.png" alt="">
+
+</body>
+
+</html>

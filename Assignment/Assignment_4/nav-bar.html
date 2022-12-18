@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f3f4f6;
+
+        }
+
+        nav {
+            height: 115px;
+            /* width: 100%; */
+            display: block;
+            box-shadow: 1px 1px 10px grey;
+            background-color: white;
+
+
+
+        }
+
+        .A {
+            display: inline-block;
+            float: left;
+            margin: 20px 20px;
+            font-size: 20px;
+            /* background-color: aqua; */
+        }
+
+        nav .A img {
+            display: inline-block;
+            width: 64px;
+            position: absolute;
+            top: 20px;
+        }
+
+        nav .w {
+            display: inline-block;
+            margin-left: 64px;
+            margin-right: 5px;
+            font-weight: bolder;
+            font-size: 32px;
+        }
+
+        nav ul {
+            display: inline-block;
+            text-decoration: none;
+            list-style: none;
+            /* background-color: aquamarine; */
+            border: 2p solid gray;
+
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 20px 20px;
+            color: #838994;
+
+        }
+
+        nav ul li:hover {
+            color: black;
+            border-bottom: 2px solid #6467f1;
+            padding-bottom: 20px;
+            cursor: pointer;
+        }
+
+        nav ul li:active {
+            color: black;
+            border-bottom: 2px solid #6467f1;
+            padding-bottom: 20px;
+        }
+
+        nav .B {
+            display: inline-block;
+            float: right;
+            margin: 20px 20px;
+
+        }
+
+        nav .B {
+            display: inline-block;
+            text-decoration: none;
+            list-style: none;
+
+        }
+
+        .B {
+            /* display: inline-block; */
+            /* margin: 20px 10px; */
+
+        }
+
+        nav .B input {
+            border: none;
+            background-image: url(search.png);
+            background-position: 5px center;
+            background-repeat: no-repeat;
+            background-size: 30px;
+            width: 325px;
+            font-size: 18px;
+            color: #7b818e;
+            border: 1px solid #838994;
+            border-radius: 5px;
+            padding: 4px 40px;
+        }
+
+        nav .B img {
+            width: 48px;
+            margin: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="A">
+                <img src="nav.png" alt="">
+                <div class="w">workflow</div>
+                <ul>
+                    <li>Dashboard</li>
+                    <li>Team</li>
+                    <li>Projects</li>
+                    <li>Calendar</li>
+                </ul>
+            </div>
+            <div class="B">
+                <input type="text" name="search" id="search" placeholder="Search">
+                <img src="bell.png" alt="">
+                <img src="nav2.png" alt="">
+
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
