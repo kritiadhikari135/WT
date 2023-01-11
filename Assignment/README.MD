@@ -29,4 +29,14 @@ The <code>border</code> property of css sets an elements border. It sets the val
  A hero section is a website design term used to describe an oversized banner image at the top of a website. Sometimes it is also called a "hero header",it serves as a user's first glimpse of your company and offering because of its prominent placement towards the top of webpage that usually extends full-width.
  
  # Navigation Bar
- A navigation bar is a link to appropriate swction/pages in a website that helps in traversing the online document. Considered a traditional method pf navigation, a navigation bar can be implement in a number of ways, namely, horizontally or vertically, or fixed or dinamic. 
+ A navigation bar is a link to appropriate swction/pages in a website that helps in traversing the online document. Considered a traditional method pf navigation, a navigation bar can be implement in a number of ways, namely, horizontally or vertically, or fixed or dinamic. </br> </br> </br> </br>
+ 
+ 
+ # Bubbling in Java script
+ In the event bubbling model, an event starts at the most specific element and then flows upward toward the least specific element( the document or even window.)
+ 
+ For example if we make a div tag which contain a button and if we click on the button first the function of button will happen then of div.
+ 
+ 
+ 
+ 
