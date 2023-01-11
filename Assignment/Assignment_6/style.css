@@ -1,0 +1,25 @@
+/* div.d1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid beige;
+    background-color: beige;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+} */
+div.d2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    background-color: blue;
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+button{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
