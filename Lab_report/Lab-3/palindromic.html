@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function to check a number is palindromic or not</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function palindromic(){
+            let rev = "";
+            const string = prompt('Enter any string');
+            for(let i=string.length -1; i>=0; i--){
+                rev = rev + string[i];
+            }
+
+            if(string == rev){
+                console.log(string + " is palindrome");
+            }
+            else {
+                console.log(string + "is not palindromic");
+            }
+        }
+        palindromic()
+    </script>
+    
+</body>
+</html>
