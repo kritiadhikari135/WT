@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial of a number</title>
+    <style>
+        button{
+            position: absolute;
+            top: 0px;
+            left:100px;
+
+        }
+    </style>
+</head>
+<body>
+    <button id="a">Results</button>
+    <h1 id="b"></h1>
+    <h2 id="c"></h2>
+    <script>
+        let num=0,
+        fact=1;
+        num=prompt("Enter a number:");
+        fact =1;
+        for(let i= num; i>0;i--){
+            fact*=i;
+        }
+        document.getElementById("a").addEventListener("click",()=> {
+            document.getElementById("b").textContent ="Factorial="+ fact;
+            document.getElementById("c").textContent ="Refress to enter again";
+        });
+    </script>
+    
+</body>
+</html>

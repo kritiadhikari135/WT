@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>load page</title>
+</head>
+<style>
+    #imgg{
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+</style>
+<body>
+   <img id="imgg" src="moon.jpg" alt="night">
+   <script>
+   function a(){
+    console.log("The dome is fully loaded");
+   }
+   function b(){
+    console.log("The page is fully loaded");
+   }
+   window.addEventListener("Domc content loader", a);
+   window.addEventListener("load", b);
+   </script> 
+</body>
+</html>
